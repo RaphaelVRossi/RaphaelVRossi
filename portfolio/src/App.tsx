@@ -2,7 +2,6 @@ import React from 'react';
 import rapha from './raphael-rossi.svg';
 import './App.css';
 
-
 function clickMe() {
   alert("You clicked me again 2!");
 }
