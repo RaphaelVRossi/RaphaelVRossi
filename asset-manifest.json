@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.899e44dc.css",
-    "main.js": "/static/js/main.94c68047.js",
+    "main.js": "/static/js/main.8780aa86.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/raphael-rossi.svg": "/static/media/raphael-rossi.5e619b6a82e3d4a40687ecde35a92c8d.svg",
     "index.html": "/index.html",
     "main.899e44dc.css.map": "/static/css/main.899e44dc.css.map",
-    "main.94c68047.js.map": "/static/js/main.94c68047.js.map",
+    "main.8780aa86.js.map": "/static/js/main.8780aa86.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.899e44dc.css",
-    "static/js/main.94c68047.js"
+    "static/js/main.8780aa86.js"
   ]
 }
