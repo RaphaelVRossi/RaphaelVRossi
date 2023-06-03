@@ -16,11 +16,9 @@ jobs:
           npm ci
           npm run build
         env:
-          REACT_APP_APIKEY: ${{ vars.REACT_APP_APIKEY }}
+          REACT_APP_APIKEY: ${{ secrets.REACT_APP_APIKEY }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: portfolio/build # The folder the action should deploy.
-        env:
-          REACT_APP_APIKEY: ${{ vars.REACT_APP_APIKEY }}
