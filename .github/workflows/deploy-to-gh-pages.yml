@@ -12,6 +12,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
+          cd portfolio
           npm ci
           npm run build
         env:
