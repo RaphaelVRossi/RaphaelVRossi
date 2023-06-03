@@ -1,0 +1,38 @@
+$bg-dark: #212121;
+$bg-light: #FAFAFA;
+
+$dark-primary-color: #6600CC;
+$primary-color: #9933FF;
+$light-primary-color: #CC66FF;
+
+// only dark mode
+$primary-color-text: #E6EDF3;
+$secondary-color-text: #7D8590;
+
+// only light mode
+// $primary-color-text: #1F2328;
+// $secondary-color-text: #656D76
+
+$divider-color: #BDBDBD;
+
+$disabled-color: #E0E0E0;
+
+
+$font-family: "Noto Sans", "Nunito Sans", "PT Sans", sans-serif;
+$code-font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+body {
+  margin: 0;
+  background-color: $bg-dark;
+  font-family: $font-family;
+}
+
+code {
+  font-family: $code-font-family;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+
