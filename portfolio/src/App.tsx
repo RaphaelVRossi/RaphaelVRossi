@@ -1,7 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import rapha from './raphael-rossi.svg';
 import './App.css';
+
+
+function clickMe() {
+  alert("You clicked me!");
+}
 
 function App() {
   return (
@@ -9,6 +13,9 @@ function App() {
       <header className="App-header">
         <img src={rapha} className="App-logo" alt="logo" />
       </header>
+      <div>
+        <button onClick={clickMe}>Button</button>
+      </div>
     </div>
   );
 }
