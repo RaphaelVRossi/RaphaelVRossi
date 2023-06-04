@@ -1,0 +1,49 @@
+$bg-dark: #000000;
+$bg-light: #FAFAFA;
+
+$primary-color: #EBEBEB;
+$dark-primary-color: #CCCCCC;
+$light-primary-color: #FAFAFA;
+
+$secondary-color: #000000;
+$dark-secondary-color: #666666;
+$light-secondary-color: #999999;
+
+$accent-color: #6600FF;
+$dark-accent-color: #330099;
+$light-accent-color: #9933FF;
+
+// only dark mode
+$primary-color-text: $primary-color;
+$secondary-color-text: $dark-primary-color;
+
+$divider-color: $light-primary-color;
+
+$disabled-color: $dark-primary-color;
+
+
+$font-family: "Body Text", "Noto Sans", "Nunito Sans", "PT Sans", sans-serif;
+$code-font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+body {
+  margin: 0;
+  background-color: $bg-dark;
+  font-family: $font-family;
+}
+
+code {
+  font-family: $code-font-family;
+}
+
+h1 {
+  color: $primary-color;
+  font-size: 10vmax;
+  font-family: "Body Text Large", $font-family;
+  font-weight: bold;
+}
+
+p {
+  color: $primary-color;
+  font-size: 4vmax;
+  font-family: "Body Text Light", $font-family
+}
