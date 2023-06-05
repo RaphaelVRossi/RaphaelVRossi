@@ -15,13 +15,16 @@ function App() {
     <section className="App">
       <Navigation/>
       <div className="content">
-      <p>
-        Hello World!
-      </p>
-      <Contact/>
-      <Home/>
-      <Projects/>
-      <Footer/>
+        <Home/>
+        <p>
+          Hello World!
+        </p>
+        <p>
+          From ENV: { process.env.REACT_APP_APIKEY }
+        </p>
+        <Contact/>
+        <Projects/>
+        <Footer/>
       </div>
     </section>
   );
