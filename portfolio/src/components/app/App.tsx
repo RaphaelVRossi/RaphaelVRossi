@@ -13,12 +13,12 @@ function App() {
 
   return (
     <section className="App">
+      <Navigation/>
       <p>
         Hello World!
       </p>
       <Contact/>
       <Home/>
-      <Navigation/>
       <Projects/>
       <Footer/>
     </section>
