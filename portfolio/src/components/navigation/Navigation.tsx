@@ -1,8 +1,25 @@
 import React from 'react';
+import './Navigation.scss'
 
 function Navigation() {
   return (
-    <h1>Navigation</h1>
+    <section className="navigation">
+      <div className="square">
+        <p>
+          about me
+        </p>
+      </div>
+      <div className="square">
+        <p>
+          projects
+        </p>
+      </div>
+      <div className="square">
+        <p>
+          contact
+        </p>
+      </div>
+    </section>
   )
 }
 
