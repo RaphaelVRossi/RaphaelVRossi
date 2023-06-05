@@ -1,11 +1,6 @@
 
 .portfolio {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  margin: 0;
-  padding: 0;
-  font-size: 2.5ex;
-  height: 100%;
+  font-size: 13ex;
 }
 
 .counter-clock-write {
@@ -13,11 +8,77 @@
   transform: rotate(180deg);
   margin: 0;
   padding: 0;
-  font-size: 2.5ex;
+}
+
+.square-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1vmin;
+}
+
+.mais-um-square {
+  display: flex;
+  width: 16vmin;
   height: 100%;
+}
+
+.square-box {
+  width: 16vmin;
+  height: 100%;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  border: 0.1vmin solid white;
+}
+
+.upper {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    border: 0.1vmin solid white;
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+    font-size: 3ex;
+  }
+}
+
+.square-box-inner {
+  width: 8vmin;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  border: 0.1vmin solid white;
+  gap: 2ex;
+
+  h1 {
+    margin: 0;
+  }
 }
 
 .home-content {
   display: flex;
   justify-content: flex-end;
+  height: 100vmin;
+}
+
+.home {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutme {
+  flex-grow: 1;
+  margin-left: 18vmax;
+  margin-right: 18vmax;
 }
