@@ -14,6 +14,7 @@ function App() {
   return (
     <section className="App">
       <Navigation/>
+      <div className="content">
       <p>
         Hello World!
       </p>
@@ -21,6 +22,7 @@ function App() {
       <Home/>
       <Projects/>
       <Footer/>
+      </div>
     </section>
   );
 }
