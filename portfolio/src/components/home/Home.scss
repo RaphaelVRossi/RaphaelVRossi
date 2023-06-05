@@ -1,0 +1,23 @@
+
+.portfolio {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
+  font-size: 2.5ex;
+  height: 100%;
+}
+
+.counter-clock-write {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
+  font-size: 2.5ex;
+  height: 100%;
+}
+
+.home-content {
+  display: flex;
+  justify-content: flex-end;
+}
