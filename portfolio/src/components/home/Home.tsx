@@ -8,13 +8,16 @@ function Portfolio() {
     <h1 className="counter-clock-write portfolio">PORTFOLIO</h1>
     <div className="square-content">
       <div className="square-box upper">
-        <h1>Hello World</h1>
+        <div>
+        <h1>Hello</h1>
+        <h1>World</h1>
+        </div>
       </div>
       <div className="mais-um-square">
         <div className="square-box-inner">
           <h1 className="counter-clock-write medium-font">Design and code</h1>
         </div>
-        <div className="square-box-inner">
+        <div className="square-box-inner" style={{margin: 0}}>
           <h1 className="small-font">&#123;&#125;</h1>
           <h1 className="small-font">[]</h1>
           <h1 className="small-font">()</h1>
