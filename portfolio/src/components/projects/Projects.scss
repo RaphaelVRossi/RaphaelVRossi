@@ -1,0 +1,17 @@
+
+.project-list {
+  display: flex;  
+}
+
+.project {
+  padding: 2vmin;
+  border: 0.1vmin solid white;
+  margin: 1vmin;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
