@@ -69,13 +69,13 @@ p {
 
 
 .small-font {
-  font-size: 2ex;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 .medium-font {
-  font-size: 3ex;
+  font-size: clamp(1rem, 2.5vw, 1.6rem);
 }
 
 .larger-font {
-  font-size: 5ex;
+  font-size: clamp(2rem, 10vw, 4rem);
 }

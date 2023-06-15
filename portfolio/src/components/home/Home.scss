@@ -1,6 +1,6 @@
 
 .portfolio {
-  font-size: 13ex;
+  font-size: clamp(2rem, 10vw, 7rem);
 }
 
 .counter-clock-write {
@@ -21,6 +21,10 @@
   display: flex;
   width: 16vmin;
   height: 100%;
+  border-left: 0.1vmin solid white;
+  border-right: 0.1vmin solid white;
+  border-top: 0;
+  border-bottom: 0;
 }
 
 .square-box {
@@ -30,6 +34,7 @@
   align-content: space-around;
   justify-content: center;
   border: 0.1vmin solid white;
+  padding: 1vmin 0 1vmin 0;
 }
 
 .upper {
@@ -38,20 +43,27 @@
   align-items: center;
   text-align: center;
 
-  h1 {
-    display: flex;
-    align-items: center;
+  div {
     border: 0.1vmin solid white;
     border-radius: 50%;
-    height: 90%;
     width: 90%;
-    font-size: 3ex;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+    justify-content: center;
+    margin: 0;
   }
 }
 
 .square-box-inner {
   width: 8vmin;
-  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -59,6 +71,7 @@
   justify-content: center;
   border: 0.1vmin solid white;
   gap: 2ex;
+  padding: 1vmin 0 1vmin 0;
 
   h1 {
     margin: 0;
@@ -73,12 +86,11 @@
 
 .home {
   display:flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 .aboutme {
   flex-grow: 1;
-  margin-left: 18vmax;
-  margin-right: 18vmax;
+  margin-left: 18vmin;
+  margin-right: 18vmin;
 }
