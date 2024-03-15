@@ -23,18 +23,6 @@ function Navigation() {
             Contact 
           </p>
         </div>
-        <div className="square-2">
-        <PhoneIcon className="icon"/>
-        </div>
-        <div className="square-2">
-        <EmailIcon className="icon"/>
-        </div>
-        <div className="square-2">
-        <GitHubIcon className="icon"/>
-        </div>
-        <div className="square-2">
-        <LinkedinIcon className="icon"/>
-        </div>
     </section>
   )
 }
