@@ -17,7 +17,6 @@ function App() {
       <div className="content">
         <Home/>
         <Projects/>
-        <Contact/>
         <Footer/>
       </div>
     </section>

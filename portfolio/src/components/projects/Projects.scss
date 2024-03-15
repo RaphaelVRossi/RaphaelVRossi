@@ -1,12 +1,16 @@
 
 .project-list {
   display: flex;  
+  height: 70vmin;
 }
 
 .project {
   padding: 2vmin;
   border: 0.1vmin solid white;
   margin: 1vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
   img {
     display: block;
