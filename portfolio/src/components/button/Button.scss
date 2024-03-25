@@ -1,14 +1,12 @@
 .square-button {
   width: 2.5vmin;
+  padding: 1vmax;
   border: 0.1vmin solid white;
   height: 15vmax;
-  display: flex;
-  padding: 1vmax;
-  justify-content: center;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-size: 2.5ex;
   margin-top: 2vmin;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
 }
 
 a:link {
@@ -16,4 +14,9 @@ a:link {
 }
 
 .square-button p {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
+  font-size: 2.5ex;
 }
