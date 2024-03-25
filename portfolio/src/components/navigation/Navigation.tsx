@@ -1,28 +1,20 @@
-import React from 'react';
 import './Navigation.scss'
-import {ReactComponent as PhoneIcon} from '../../assets/icons/phone-icon.svg'
-import {ReactComponent as EmailIcon} from '../../assets/icons/email-icon.svg'
-import {ReactComponent as GitHubIcon} from '../../assets/icons/github-icon.svg'
-import {ReactComponent as LinkedinIcon} from '../../assets/icons/linkedin-icon.svg'
+import PhoneIcon from '../icons/PhoneIcon'
+import EmailIcon from '../icons/EmailIcon';
+import GitHubIcon from '../icons/GitHubIcon';
+import LinkedinIcon from '../icons/LinkedinIcon';
+import Button from '../button/Button';
 
 function Navigation() {
   return (
     <section className="navigation">
-        <div className="square">
-          <p>
-            About Me
-          </p>
-        </div>
-        <div className="square">
-          <p>
-            Projects 
-          </p>
-        </div>
-        <div className="square">
-          <p>
-            Contact 
-          </p>
-        </div>
+      <Button> About Me </Button>
+      <Button> Projects </Button>
+      <Button> Contact </Button>
+      <PhoneIcon />
+      <EmailIcon />
+      <GitHubIcon />
+      <LinkedinIcon />
     </section>
   )
 }

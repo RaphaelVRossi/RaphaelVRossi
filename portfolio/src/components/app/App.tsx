@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import '../../styles/style.scss';
 import Contact from '../contact/Contact'
@@ -17,6 +16,7 @@ function App() {
       <div className="content">
         <Home/>
         <Projects/>
+        <Contact/>
         <Footer/>
       </div>
     </section>
