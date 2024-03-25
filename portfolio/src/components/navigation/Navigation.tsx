@@ -8,9 +8,9 @@ import Button from '../button/Button';
 function Navigation() {
   return (
     <section className="navigation">
-      <Button> About Me </Button>
-      <Button> Projects </Button>
-      <Button> Contact </Button>
+      <Button href="#home"> About Me </Button>
+      <Button href="#projects"> Projects </Button>
+      <Button href="#contact"> Contact </Button>
       <PhoneIcon />
       <EmailIcon />
       <GitHubIcon />

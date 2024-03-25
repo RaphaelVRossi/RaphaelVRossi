@@ -1,4 +1,3 @@
-import React from 'react';
 import './Projects.scss';
 import project1 from "../../assets/images/project-1.png"
 import project2 from "../../assets/images/project-2.png"
@@ -6,7 +5,7 @@ import project3 from "../../assets/images/project-3.png"
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h1 className="page-title">Projects</h1>
       <div className="project-list">
         <div className="project">

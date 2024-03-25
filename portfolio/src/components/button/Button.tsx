@@ -3,11 +3,9 @@ import "./Button.scss"
 function Button(props: any) {
 
   return (
-    <div className="square">
-      <p>
+    <a className="square-button" href={props.href}>
         {props.children}
-      </p>
-    </div>
+    </a>
   )
 }
 
