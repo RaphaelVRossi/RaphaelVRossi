@@ -4,7 +4,7 @@ function Button(props: any) {
 
   return (
     <a className="square-button" href={props.href}>
-        {props.children}
+      <p> {props.children} </p>
     </a>
   )
 }
