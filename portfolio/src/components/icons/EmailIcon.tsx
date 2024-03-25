@@ -3,7 +3,9 @@ import { ReactComponent as Icon } from '../../assets/icons/email-icon.svg'
 
 function EmailIcon() {
   return (
-    <Icon className="icon" />
+    <a href="mailto:contact@raphaelrossi.io">
+      <Icon className="icon" />
+    </a>
   )
 }
 

@@ -3,7 +3,9 @@ import { ReactComponent as Icon } from '../../assets/icons/linkedin-icon.svg'
 
 function LinkedinIcon() {
   return (
-    <Icon className="icon" />
+    <a href="https://www.linkedin.com/in/rapha-rossi/" target="_blank" rel="noreferrer">
+      <Icon className="icon" />
+    </a>
   )
 }
 
