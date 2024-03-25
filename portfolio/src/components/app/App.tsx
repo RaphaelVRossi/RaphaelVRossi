@@ -12,12 +12,12 @@ function App() {
 
   return (
     <section className="App">
-      <Navigation/>
+      <Navigation />
       <div className="content">
-        <Home/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
+        <Home />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </section>
   );

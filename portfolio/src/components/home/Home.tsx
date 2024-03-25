@@ -39,7 +39,7 @@ function Portfolio() {
 
 function Home() {
   return (
-    <section className="home">
+    <section className="home" id="home">
       <section className="aboutme">
         <div/>
         <h1 className="larger-font">Who Am I?</h1>
