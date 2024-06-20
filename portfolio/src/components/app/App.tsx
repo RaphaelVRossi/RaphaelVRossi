@@ -5,6 +5,7 @@ import Footer from '../footer/Footer'
 import Home from '../home/Home'
 import Navigation from '../navigation/Navigation'
 import Projects from '../projects/Projects'
+import Talks from '../talks/Talks'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <div className="content">
         <Home />
         <Projects />
+        <Talks />
         <Contact />
         <Footer />
       </div>
