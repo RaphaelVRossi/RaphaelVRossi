@@ -27,6 +27,6 @@ Previously worked at:
 [`Eng`](https://www.engdb.com.br/)
 
 Besides my professional life, I also enjoy retro gaming, magic the gathering,
-home lab and self hosted applications.
+home-labing, self-hosted applications and spent time with my wife and our cats.
 
 ###### 💾 EOF
