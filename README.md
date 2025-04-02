@@ -1,4 +1,4 @@
-# Hi there, I'm Raphael Rossi 👋 👨‍💻
+# Hi there, I'm Raphael Rossi 👋🏻 👨🏻‍💻
 
 A full-stack developer who loves coding in terminal using nvim.
 
@@ -15,8 +15,7 @@ Beyond contributing to the open-source, I've also been organizing
 events for the [`GolangSP`](https://www.meetup.com/golangbr/)
 community, in partnership with 
 [`Microsoft Reactor`](https://developer.microsoft.com/pt-br/reactor/), 
-[`Stone`](https://jornada.stone.com.br/), 
-[`Sumup`](https://www.sumup.com/pt-br/carreiras)
+[`Stone`](https://jornada.stone.com.br/) and others.
 
 ## Find me around the web 🌎:
 - My own portfolio [`raphaelrossi.io`](https://raphaelrossi.io)
