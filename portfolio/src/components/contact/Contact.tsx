@@ -1,11 +1,14 @@
+import "./Contact.scss";
 
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <h1 className="larger-font">Contact</h1>
-      <p className="medium-font">
-        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-      </p>
+      <h1 className="page-title">Contact</h1>
+      <section className="contactme">
+        <p className="medium-font">
+          Thanks for stopping by! I would love to chat about programming languages, architecture and structure of code, new AI topics and other interesting IT subjects. Feel free to send me a email or find me on my social media.
+        </p>
+      </section>
     </section>
   )
 }
