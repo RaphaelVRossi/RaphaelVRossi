@@ -10,6 +10,7 @@ function Navigation() {
     <section className="navigation">
       <Button href="#home"> About Me </Button>
       <Button href="#projects"> Projects </Button>
+      <Button href="#talks"> Talks </Button>
       <Button href="#contact"> Contact </Button>
       <PhoneIcon />
       <EmailIcon />
