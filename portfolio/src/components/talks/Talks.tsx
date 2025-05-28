@@ -52,23 +52,13 @@ const engeek1 = (
 )
 
 function Talks() {
+  const talksList = [hacktoberFest, gitlabCi, microservicos, engeek2, engeek1]
+
   return (
     <section className="talks" id="talks">
       <h1 className="page-title">Talks</h1>
       <div className="talks-list">
-        {
-          Carousel(
-            {
-              components: [
-                hacktoberFest,
-                gitlabCi,
-                microservicos,
-                engeek2,
-                engeek1
-              ]
-            }
-          )
-        }
+        <Carousel components={talksList} />
       </div>
     </section>
   )
