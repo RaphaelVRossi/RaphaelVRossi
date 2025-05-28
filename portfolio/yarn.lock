@@ -1269,6 +1269,34 @@
   resolved "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz"
   integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
 
+"@datadog/browser-core@6.8.0":
+  version "6.8.0"
+  resolved "https://registry.npmjs.org/@datadog/browser-core/-/browser-core-6.8.0.tgz"
+  integrity sha512-fB9KHx0AKVFNGNZXUnoqNqQnkHmp2fSkKY9w3A7Qx263iXsCfLZVz8ZQERDlQIhjK7O320Xead3eHx5P09wSsQ==
+
+"@datadog/browser-rum-core@6.8.0":
+  version "6.8.0"
+  resolved "https://registry.npmjs.org/@datadog/browser-rum-core/-/browser-rum-core-6.8.0.tgz"
+  integrity sha512-ODKe4B9MdX+2jnGG8UoUNImrLZ4w7ZokLLREYlWSRuwFANrdpNqZgD3QDeLeA16E+TPSBkOoesj9ZZUyc6Jkwg==
+  dependencies:
+    "@datadog/browser-core" "6.8.0"
+
+"@datadog/browser-rum-react@^6.8.0":
+  version "6.8.0"
+  resolved "https://registry.npmjs.org/@datadog/browser-rum-react/-/browser-rum-react-6.8.0.tgz"
+  integrity sha512-jX2WZXvXVRh59HA3o5TcEeTHCwKiNoKL0PnXmTNGYhVvydqlU0MmtQgOgHqEYQ2dQ/lMUU5MTJRK8dW9RkoL6w==
+  dependencies:
+    "@datadog/browser-core" "6.8.0"
+    "@datadog/browser-rum-core" "6.8.0"
+
+"@datadog/browser-rum@^6.8.0":
+  version "6.8.0"
+  resolved "https://registry.npmjs.org/@datadog/browser-rum/-/browser-rum-6.8.0.tgz"
+  integrity sha512-C9uM/MmAf3tPs74aCqzVZUhDRwV6LATvn7idQHIQdxhXvvb5ejKMF1Lf2R/EQ944Aju5HuBaoofbW8Ie4TAqUg==
+  dependencies:
+    "@datadog/browser-core" "6.8.0"
+    "@datadog/browser-rum-core" "6.8.0"
+
 "@emotion/babel-plugin@^11.11.0":
   version "11.11.0"
   resolved "https://registry.npmjs.org/@emotion/babel-plugin/-/babel-plugin-11.11.0.tgz"
@@ -5076,6 +5104,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
+fsevents@^2.3.2, fsevents@~2.3.2:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
+
 function-bind@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
@@ -8241,7 +8274,7 @@ react-scripts@^5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react@^18.0.0, react@^18.2.0, "react@>= 16", "react@>= 16.8.0", react@>=16.8.0:
+react@^18.0.0, react@^18.2.0, "react@>= 16", "react@>= 16.8.0", react@>=16.8.0, "react@18 || 19":
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
