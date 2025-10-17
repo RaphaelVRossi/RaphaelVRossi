@@ -1,10 +1,20 @@
 import './Talks.scss';
 import Carousel from '../carousel/Carousel';
 
+const workshopTddGo = (
+  <div className="talk">
+    <h1 className="medium-font">Workshop - TDD em Go</h1>
+    <iframe src="https://www.youtube.com/embed/s-cK1TNOakM?start=2121" title="Golang SP & Stone - #98" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+    <p className="small-font">
+     #golang #stone #tdd 
+    </p>
+  </div>
+)
+
 const hacktoberFest = (
   <div className="talk">
     <h1 className="medium-font">HacktoberFest na Globo: Como funciona?</h1>
-    <iframe src="https://www.youtube.com/embed/akUO6jP-HJ8" title="GlobotechCast | Episódio 54 – HacktoberFest na Globo: Como funciona?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+    <iframe src="https://www.youtube.com/embed/OLZhjZcqNik" title="O que significa HacktoberFest na Globo? - EP 54 | globotechcast" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
     <p className="small-font">
       #openSource #globo #hacktoberFest
     </p>
@@ -52,7 +62,7 @@ const engeek1 = (
 )
 
 function Talks() {
-  const talksList = [hacktoberFest, gitlabCi, microservicos, engeek2, engeek1]
+  const talksList = [workshopTddGo, hacktoberFest, gitlabCi, microservicos, engeek2, engeek1]
 
   return (
     <section className="talks" id="talks">
