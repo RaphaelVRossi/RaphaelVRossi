@@ -17,7 +17,7 @@ function Home() {
           In addition to programming and gaming, I am also passionate about working in a simple yet efficient environment, which is why I love using the terminal, especially VIM!
         </p>
         <p className="medium-font">
-          I am currently working as a full-stack developer at a large entertainment company, using Python and Go for the backend and React with Material UI for the frontend.
+          I am currently working as a Senior Software Engineering at one of the leading financial company in BrazilReact with, using Python and Node for the backend and Vue Material UI for the frontend.
         </p>
         <p className="medium-font">
           I am a contributor to open source projects and I am always looking for new projects to contribute to.
